@@ -56,6 +56,7 @@ const Page = () => {
                     width={80}
                     height={0}
                     className="object-contain  transition-transform duration-300"
+                    loading="lazy"
                   />
                 </div>
 
@@ -66,6 +67,7 @@ const Page = () => {
                     width={80}
                     height={50}
                     className="object-contain  transition-transform duration-300"
+                    loading="lazy"
                   />
                 </div>
 
@@ -76,6 +78,7 @@ const Page = () => {
                     width={90}
                     height={80}
                     className="object-contain  transition-transform duration-300"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -105,6 +108,7 @@ const Page = () => {
                 src="/assets/img/github-mark.png"
                 alt="GitHub"
                 className="h-4 w-4 hover:opacity-80 transition-opacity duration-300"
+                loading="lazy"
               />
             </a>
             <a
@@ -117,6 +121,7 @@ const Page = () => {
                 src="/assets/img/x.png"
                 alt="Twitter"
                 className="h-3.5 w-4 hover:opacity-80 transition-opacity duration-300"
+                loading="lazy"
               />
             </a>
           </div>
