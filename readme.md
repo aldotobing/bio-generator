@@ -92,3 +92,8 @@ This project is licensed under the MIT License.
 ## Deployment
 
 This project is deployed to GitHub Pages using GitHub Actions. The deployment workflow is defined in `.github/workflows/deploy.yml`.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
