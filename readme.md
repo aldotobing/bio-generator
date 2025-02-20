@@ -85,10 +85,6 @@ NEXT_PUBLIC_API_ENDPOINT=<your_api_endpoint>
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Deployment
 
 This project is deployed to GitHub Pages using GitHub Actions. The deployment workflow is defined in `.github/workflows/deploy.yml`.
