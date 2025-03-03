@@ -72,22 +72,22 @@ const AdditionalDetailsSection: React.FC<AdditionalDetailsSectionProps> = ({
     setIsGeneratingTemplate(true);
 
     const prompt = `
-You are tasked with generating a concise example for the "Additional Context/Details" section of a LinkedIn bio. 
-The example should focus exclusively on the user's key achievements, passions, or specific skills related to their role as "${role}". 
- Highlight the most important details without unnecessary storytelling or filler.
+Generate a structured example for the "Additional Context/Details" section of a LinkedIn bio. 
+The example should be **practical and relatable**, helping users who are unsure what to include.  
+Focus on their **key achievements, passions, and expertise** as a "${role}".  
 
-Include:
-1. One or two notable achievements. (no measure in numbers)
-2. Specific areas of expertise or passion.
+### **Example Format:**  
+- **Key Strengths:** [Summarize core skills, expertise, or unique approach]  
+- **Achievements:** [Mention 1-2 notable career milestones or projects]  
+- **Passion & Focus:** [Highlight what drives them in their work]  
 
-Avoid:
-   - Generic buzzwords and clichés
-   - Personal information unrelated to career
-   - Overly formal or casual language
-   - Translation notes or word/character counts
-   - Any explanatory notes at the bottom
+⚠️ **Avoid:**  
+- Buzzwords & clichés  
+- Personal info unrelated to career  
+- Overly formal/casual language  
+- Placeholder text or notes  
 
-Keep the response brief, impactful, and clear, and ensure it is ready for use without placeholders or notes, using a first-person narrative voice.
+Keep the response **concise, engaging, and formatted as a simple list** using a first-person voice.  
 `;
 
     try {

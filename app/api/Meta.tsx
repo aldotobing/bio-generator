@@ -44,7 +44,7 @@ Follow these guidelines:
    - Voice: First-person narrative
    ${
      language === "id"
-       ? "Tulis dalam bahasa Indonesia dengan gaya profesional yang alami. Gunakan bahasa yang umum ditemukan di profil LinkedIn: jelas, profesional, dan tidak terlalu kaku. Pastikan ejaan dan tata bahasa sesuai KBBI, tetapi tetap mudah dibaca dan menarik. Jangan menerjemahkan nama profesi/role serta istilah teknis yang sudah umum digunakan dalam bahasa Inggris."
+       ? "Tulis dalam bahasa Indonesia yang profesional dan natural, seperti yang biasa digunakan di lingkungan kerja atau dunia profesional. Pastikan responsnya lengkap dan tidak terpotong. Gunakan bahasa yang jelas dan mengalir tanpa terdengar kaku, tetapi tetap profesional. Jangan menerjemahkan nama profesi/role serta istilah teknis yang sudah umum digunakan dalam bahasa Inggris."
        : ""
    }
 
